@@ -1,0 +1,175 @@
+{
+    "type": "taskUniversal",
+    "actions": {
+        "abortActions": [],
+        "emailNotifications": [],
+        "setVariableActions": [],
+        "snmpNotifications": [],
+        "systemOperations": []
+    },
+    "agent": null,
+    "agentCluster": null,
+    "agentClusterVar": null,
+    "agentVar": "${AGT_WINDOWS}",
+    "booleanField1": {
+        "label": "Get Output",
+        "name": "getoutput",
+        "value": true
+    },
+    "broadcastCluster": null,
+    "broadcastClusterVar": null,
+    "choiceField1": {
+        "label": "Loglevel",
+        "name": "loglevel",
+        "value": "DEBUG"
+    },
+    "choiceField2": {
+        "label": "ODBC Drivername",
+        "name": "odbc_drivername",
+        "value": "PostgreSQL Unicode"
+    },
+    "choiceField3": {
+        "label": "Database Type",
+        "name": "database_type",
+        "value": "postgresql"
+    },
+    "choiceField4": {
+        "label": "Script Type",
+        "name": "scripttype",
+        "value": "sqlscript"
+    },
+    "choiceField5": {
+        "label": "Authentication",
+        "name": "authentication",
+        "value": "sqlserver"
+    },
+    "choiceField6": {
+        "label": "Column Separator",
+        "name": "colsep",
+        "value": "\";\""
+    },
+    "choiceField7": {
+        "label": "Mode",
+        "name": "connection_mode",
+        "value": "cx_Oracle.SYSDBA"
+    },
+    "cpDuration": null,
+    "cpDurationUnit": "Minutes",
+    "createConsole": false,
+    "credentialField1": {
+        "label": "Database Credentials",
+        "name": "credentials",
+        "value": "Cred_Postgresql"
+    },
+    "credentials": null,
+    "credentialsVar": null,
+    "customField1": {
+        "label": null,
+        "value": null
+    },
+    "customField2": {
+        "label": null,
+        "value": null
+    },
+    "desktopInteract": false,
+    "efDayConstraint": "None",
+    "efDuration": "00:00:00:00",
+    "efEnabled": false,
+    "efNthAmount": 5,
+    "efOffsetDuration": null,
+    "efOffsetDurationUnit": "Minutes",
+    "efOffsetPercentage": 0,
+    "efOffsetType": "Percentage",
+    "efTime": "00:00",
+    "efType": "Time",
+    "elevateUser": false,
+    "environment": [],
+    "exclusiveTasks": [],
+    "executionRestriction": "None",
+    "exitCodeOutput": null,
+    "exitCodeProcessing": "Success Exitcode Range",
+    "exitCodeText": null,
+    "exitCodes": "0",
+    "holdResources": false,
+    "lfDayConstraint": "None",
+    "lfDuration": "00:00:00:00",
+    "lfEnabled": false,
+    "lfNthAmount": 5,
+    "lfOffsetDuration": null,
+    "lfOffsetDurationUnit": "Minutes",
+    "lfOffsetPercentage": 0,
+    "lfOffsetType": "Percentage",
+    "lfTime": "00:00",
+    "lfType": "Time",
+    "lsDayConstraint": "None",
+    "lsDuration": "00:00:00:00",
+    "lsEnabled": false,
+    "lsNthAmount": 5,
+    "lsTime": "00:00",
+    "lsType": "Time",
+    "name": "Postgres Task - Select",
+    "notes": [],
+    "opswiseGroups": [],
+    "outputFailureOnly": false,
+    "outputReturnFile": null,
+    "outputReturnNline": "100",
+    "outputReturnSline": "1",
+    "outputReturnText": null,
+    "outputReturnType": "OUTERR",
+    "outputType": "STDOUT",
+    "resPriority": 10,
+    "resolveNameImmediately": false,
+    "restrictionPeriod": "None",
+    "restrictionPeriodAfterDate": null,
+    "restrictionPeriodAfterTime": null,
+    "restrictionPeriodBeforeDate": null,
+    "restrictionPeriodBeforeTime": null,
+    "restrictionPeriodDateList": [],
+    "retainSysIds": true,
+    "retryExitCodes": null,
+    "retryIndefinitely": false,
+    "retryInterval": 60,
+    "retryMaximum": 0,
+    "retrySuppressFailure": false,
+    "runtimeDir": null,
+    "scriptField1": {
+        "label": "Script",
+        "name": "script",
+        "value": "postgresql_select_simple"
+    },
+    "startHeld": false,
+    "startHeldReason": null,
+    "summary": null,
+    "sysId": "ff3ea8ad50434f47bbde6c7caf2d86eb",
+    "template": "SQL",
+    "textField1": {
+        "label": "Database Name",
+        "name": "database",
+        "value": "postgres"
+    },
+    "textField2": {
+        "label": "Server",
+        "name": "server",
+        "value": "localhost"
+    },
+    "textField3": {
+        "label": "Database Port",
+        "name": "database_port",
+        "value": "5432"
+    },
+    "timeZonePref": "-- System Default --",
+    "twDelayAmount": null,
+    "twDelayDuration": "00:00:00:00",
+    "twDelayType": "None",
+    "twWaitAmount": null,
+    "twWaitDayConstraint": "None",
+    "twWaitDuration": "00:00:00:00",
+    "twWaitTime": "00:00",
+    "twWaitType": "None",
+    "twWorkflowOnly": "-- System Default --",
+    "userEstimatedDuration": null,
+    "variables": [],
+    "version": 17,
+    "virtualResources": [],
+    "waitForOutput": false
+}
