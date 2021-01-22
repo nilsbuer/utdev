@@ -1,0 +1,124 @@
+{
+    "type": "taskWorkflow",
+    "actions": {
+        "abortActions": [],
+        "emailNotifications": [],
+        "setVariableActions": [],
+        "snmpNotifications": [],
+        "systemOperations": []
+    },
+    "calculateCp": false,
+    "calendar": null,
+    "cpDuration": null,
+    "cpDurationUnit": "Minutes",
+    "customField1": {
+        "label": null,
+        "value": null
+    },
+    "customField2": {
+        "label": null,
+        "value": null
+    },
+    "efDayConstraint": "None",
+    "efDuration": "00:00:00:00",
+    "efEnabled": false,
+    "efNthAmount": 5,
+    "efOffsetDuration": null,
+    "efOffsetDurationUnit": "Minutes",
+    "efOffsetPercentage": 0,
+    "efOffsetType": "Percentage",
+    "efTime": "00:00",
+    "efType": "Time",
+    "exclusiveTasks": [],
+    "executionRestriction": "None",
+    "holdResources": false,
+    "layoutOption": "-- None --",
+    "lfDayConstraint": "None",
+    "lfDuration": "00:00:00:00",
+    "lfEnabled": false,
+    "lfNthAmount": 5,
+    "lfOffsetDuration": null,
+    "lfOffsetDurationUnit": "Minutes",
+    "lfOffsetPercentage": 0,
+    "lfOffsetType": "Percentage",
+    "lfTime": "00:00",
+    "lfType": "Time",
+    "lsDayConstraint": "None",
+    "lsDuration": "00:00:00:00",
+    "lsEnabled": false,
+    "lsNthAmount": 5,
+    "lsTime": "00:00",
+    "lsType": "Time",
+    "name": "test_wf",
+    "notes": [],
+    "numberOfTasks": 2,
+    "opswiseGroups": [],
+    "overrideCalendar": false,
+    "resPriority": 10,
+    "resolveNameImmediately": false,
+    "restrictionPeriod": "None",
+    "restrictionPeriodAfterDate": null,
+    "restrictionPeriodAfterTime": null,
+    "restrictionPeriodBeforeDate": null,
+    "restrictionPeriodBeforeTime": null,
+    "restrictionPeriodDateList": [],
+    "retainSysIds": true,
+    "runCriteria": [],
+    "skippedOption": "Show Skipped",
+    "startHeld": false,
+    "startHeldReason": null,
+    "stepActions": [],
+    "stepConditions": [],
+    "summary": null,
+    "sysId": "2eb9115fab984dca8015a4fd06f9cb0b",
+    "timeZonePref": "-- System Default --",
+    "twDelayAmount": null,
+    "twDelayDuration": "00:00:00:00",
+    "twDelayType": "None",
+    "twWaitAmount": null,
+    "twWaitDayConstraint": "None",
+    "twWaitDuration": "00:00:00:00",
+    "twWaitTime": "00:00",
+    "twWaitType": "None",
+    "twWorkflowOnly": "-- System Default --",
+    "userEstimatedDuration": null,
+    "variables": [],
+    "version": 2,
+    "virtualResources": [],
+    "workflowEdges": [
+        {
+            "condition": {
+                "value": "Success"
+            },
+            "sourceId": {
+                "taskName": "Sleep 30",
+                "value": "2"
+            },
+            "straightEdge": false,
+            "targetId": {
+                "taskName": "Sleep 30",
+                "value": "3"
+            }
+        }
+    ],
+    "workflowVertices": [
+        {
+            "alias": null,
+            "task": {
+                "value": "Sleep 30"
+            },
+            "vertexId": "2",
+            "vertexX": "30",
+            "vertexY": "25"
+        },
+        {
+            "alias": null,
+            "task": {
+                "value": "Sleep 30"
+            },
+            "vertexId": "3",
+            "vertexX": "143",
+            "vertexY": "25"
+        }
+    ]
+}
