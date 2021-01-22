@@ -91,7 +91,7 @@
     "script": "test_task",
     "startHeld": false,
     "startHeldReason": null,
-    "summary": null,
+    "summary": "task to test github upload",
     "sysId": "32a3b2dfa93942c0b676b3f0955a9433",
     "timeZonePref": "-- System Default --",
     "twDelayAmount": null,
@@ -105,7 +105,7 @@
     "twWorkflowOnly": "-- System Default --",
     "userEstimatedDuration": null,
     "variables": [],
-    "version": 1,
+    "version": 3,
     "virtualResources": [],
     "waitForOutput": false
 }
